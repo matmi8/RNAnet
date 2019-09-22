@@ -1,0 +1,44 @@
+List of function in the RNAnet project.
+
+
+- Network_functions
+
+	1) LinksFunc(filename, m0, Bd)
+	2) SpeciesNumbers(links)
+	3) SampleDistFunc(m, s , choice, N)
+	4) ConcFinder(Links, vet_star_n, vet_star_m, lam)      
+	5) f_x(x, A, a)                                        
+
+- Observables_functions
+
+
+	1) Obs_conc_func(m, n, m_, n_)                                              	TBC
+	2) Obs_X_MeanMax_func(X_ij)                                                 	TBC
+	3) Obs_X_Delta_func(X_ij)                                                   	TBC
+	4) Obs_X_rho_func(X_ij, K_ij)                                               	TBC
+	5) Obs_Sel_func(X_ij)                                                       	TBC
+	6) Cv_Func(links, Opt,  save_profile = False, savefile_name = "nowhere")    	TBC
+	7) CompObs(links, beta, Opt)        				            	TBC
+
+
+- Susceptibility_functions
+
+	1) X_K_ij_func(links, n,m, n_,m_, lam, choiceK = 1)            			TBC
+	2) X_K_ab_func(links, n,m, n_,m_, lam, choiceK = 1)            			TBC
+	3) X_ia_func(links, X_ab, m, m_)                               			TBC
+	4) W_K_func(links, n,m, n_,m_, lam, M, N, choiceK = 1)         			TBC
+
+
+
+- Structure_functions
+	
+	1)  ShortestPath_func(links)      
+	2)  A_ij_matrix(links)
+	3)  A_ai_matrix(links)
+	4)  ConnectivityCheck(Links)      						TBC
+	5)  ER_rand(links)                						TBC
+
+
+
+
+

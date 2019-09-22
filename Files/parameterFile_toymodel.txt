@@ -1,0 +1,21 @@
+# parameter = value
+m0	= 	6.75 
+d 	= 	0.08 
+delta 	= 	0.027 
+lambda_ = 	0.2
+##
+##
+meanb 	= 	8.0
+betaMin	= 	0.01 
+betaMax	= 	5000 
+##
+##
+Cv_beta	=	0.4
+Cv_b 	= 	0.4
+Bd 	= 	0
+##
+##
+N_rip 	= 	100
+N_step 	= 	100
+    
+

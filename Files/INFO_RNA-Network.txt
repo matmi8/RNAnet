@@ -1,0 +1,24 @@
+
+This file contains all the information about the simulations of the miRNA-ceRNA network of CLASH.
+
+
+
+
+
+N.B. it is very important to declare the number of processors to be used in the paralleling!
+
+#####
+
+import os, sys
+
+os.environ["MKL_NUM_THREADS"] = "5" 
+os.environ["NUMEXPR_NUM_THREADS"] = "5" 
+os.environ["OMP_NUM_THREADS"] = "5" 
+
+import numpy as np
+
+#####
+
+
+
+ 
