@@ -25,7 +25,7 @@ import Structure_functions as STF
 PLOT = 0
 N_ARG = 7
 
-ER_ON = 0
+ER_ON = 1
 REAL_ON = 1
 
 def  requested_argv():
